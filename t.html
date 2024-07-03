@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test LocalStorage</title>
+</head>
+<body>
+    <button onclick="storeItem()">Stocker un élément</button>
+    <button onclick="retrieveItem()">Récupérer l'élément</button>
+    <p id="output"></p>
+
+    <script>
+        function storeItem() {
+            localStorage.setItem('testKey', 'testValue');
+            document.getElementById('output').innerText = 'Élément stocké dans localStorage';
+        }
+
+        function retrieveItem() {
+            let testValue = localStorage.getItem('testKey');
+            document.getElementById('output').innerText = 'Valeur récupérée: ' + testValue;
+        }
+    </script>
+</body>
+</html>
