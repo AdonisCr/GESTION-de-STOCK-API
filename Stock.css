@@ -59,21 +59,74 @@ a{
 }
 .content{
     padding-top: 90px;
-    padding-left: 92px;
-    width: 1170px;
+    padding-left: 90px;
+    width: 1160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
     
     }
 .inhe{
-    width: 100%;
+    width: 98%;
     background-color: #DADADA;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: 10px ;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }    
 .inhe div{
     display: flex;
     align-items: center;
+    height: 80px;
+    gap: 12px;
+   
 
 
+}
+table{
+    text-align: center;
+    justify-content: center; 
+    width: 99%;
+    padding-left: 10px; 
+}
+th{
+padding-bottom: 20px;
+}
+td{
+    height: 30px;
+}
+h3{
+    font-size: 40px;
+    margin: 0;
+    padding: 20px;
+    color: #343B3F;
+
+}
+.palab{
+   border-radius: 3px; 
+   background-color:#DADADA ; 
+   text-align: center; 
+   margin-top: 40px;
+   border-radius: 6px;
+   margin-bottom: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #DADADA;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
 }

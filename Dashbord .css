@@ -87,18 +87,15 @@ h3{
    text-align: center; 
    margin-top: 40px;
    border-radius: 6px;
+   margin-bottom: 20px;
 }
-.palab {
-    margin-bottom: 20px;
-}
-
 table {
     width: 100%;
     border-collapse: collapse;
 }
 
 table, th, td {
-    border: 1px solid black;
+    border: 1px solid #DADADA;
 }
 
 th, td {
